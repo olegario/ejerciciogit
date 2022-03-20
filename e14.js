@@ -12,8 +12,8 @@ function dividiArray(array,n){
             ultimo.push(elemento);
         }
     }
-    console.log(arreglos);
+    return(arreglos);
     
 }
 
-dividiArray([7,8,9,10,45,0,3,6,3,],3);
+console.log(dividiArray([7,8,9,10,45,0,3,6,3,],3));
